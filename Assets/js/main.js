@@ -1,0 +1,9 @@
+// Variavbles
+
+
+
+// Logics
+
+
+
+// Funtions
