@@ -5,6 +5,7 @@
 }
 body {
   background-color: #e8f9fd;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Nav  */
@@ -13,13 +14,18 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f9e0ae;
+  padding-bottom: 0.2rem;
 }
 .navbar {
   padding: 0;
+  
 }
 .navbar-brand {
   margin-right: 0;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
+}
+#navbar-tag{
+    color: #FF0063;
 }
 
 /* Board */
