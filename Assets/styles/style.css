@@ -1,56 +1,64 @@
 /* Boiler plate */
-* html body{
-    margin: 0;
-    padding: 0;
+* html body {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: #e8f9fd;
+body {
+  background-color: #e8f9fd;
 }
-
 
 /* Nav  */
-.navbar .container-fluid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9e0ae;
+.navbar .container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9e0ae;
 }
-.navbar{
-    padding: 0;
+.navbar {
+  padding: 0;
 }
-.navbar-brand{
-    margin-right: 0;
-    padding-top: 0.5rem;
+.navbar-brand {
+  margin-right: 0;
+  padding-top: 0.5rem;
 }
-
 
 /* Board */
 .board {
-    /* position: absolute; */
-    top: 20%;
-    display: flex;
-    /* flex-wrap: wrap; */
-    margin: 2.5rem auto 1rem auto;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: row; */
-  }
-  
-  .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    
-    width: 95px;
-    height: 95px;
-    background-color: #B3E8E5;
-  }
+  top: 20%;
+  display: flex;
+  margin: 2.5rem auto 1rem auto;
+  justify-content: center;
+  align-items: center;
+}
 
-  .box_even{
-    background-color: #82DBD8;
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: #b3e8e5;
+}
+
+.box_even {
+  background-color: #82dbd8;
+}
+
+.row1 {
+    border-left: 5px solid #2F8F9D;
+    border-top: 5px solid #2F8F9D;
+    border-bottom: 5px solid #2F8F9D;
+}
+.row10{
+    border-right: 5px solid #2F8F9D;
+    border-top: 5px solid #2F8F9D;
+    border-bottom: 5px solid #2F8F9D ;
+}
+.row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9 {
+    border-top: 5px solid #2F8F9D;
+    border-bottom: 5px solid #2F8F9D;
     
-  }
+}
 
 
 /* Modals */
