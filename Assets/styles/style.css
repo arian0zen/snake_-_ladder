@@ -1,9 +1,19 @@
 /* Boiler plate */
-
+* html body{
+    margin: 0;
+    padding: 0;
+}
 
 
 /* Nav  */
-
+.navbar .container-fluid{
+    display: flex;
+    justify-content: center;
+    background-color: #f9e0ae;
+}
+.navbar{
+    padding: 0;
+}
 
 
 /* Board */
