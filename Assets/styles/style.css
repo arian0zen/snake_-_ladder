@@ -42,12 +42,12 @@ body {
   margin: 1rem auto 1rem auto;
   justify-content: center;
   align-items: center;
+
 }
 
 .box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: larger;
+  color: #66adb8;
   width: 60px;
   height: 60px;
   background-color: #b3e8e5;
@@ -55,6 +55,7 @@ body {
 
 .box_even {
   background-color: #82dbd8;
+  color: #e8f9fd;
 }
 
 .row1 {
@@ -84,12 +85,14 @@ body {
 /*media queries */
 @media (max-width: 380px) {
   .box {
+    font-size: small;
     height: 44px;
     width: 35px;
   }
 }
 @media (max-width: 540px) and (min-width: 380px) {
   .box {
+    font-size: small;
     height: 45px;
     width: 37.5px;
   }
@@ -104,7 +107,12 @@ body {
     width: 52px;
   }
 }
+.box_text{
+  display: flex;
+  justify-content: flex-start;
 
+  padding: 0%;
+}
 /* .ladder1{
   position: absolute;
   height: 210px;
