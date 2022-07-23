@@ -28,11 +28,18 @@ body {
     color: #FF0063;
 }
 
+/* Players */
+.players{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
 /* Board */
 .board {
   top: 20%;
   display: flex;
-  margin: 2.5rem auto 1rem auto;
+  margin: 1rem auto 1rem auto;
   justify-content: center;
   align-items: center;
 }
@@ -41,8 +48,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   background-color: #b3e8e5;
 }
 
