@@ -93,10 +93,10 @@ body {
     height: 45px;
     width: 37.5px;
   }
-  .ladder1{
+  /* .ladder1{
     height: 132px;
     width: 112.5px;
-  }
+  } */
 }
 @media (max-width: 720px) and (min-width: 540px) {
   .box {
@@ -105,9 +105,9 @@ body {
   }
 }
 
-.ladder1{
+/* .ladder1{
   position: absolute;
   height: 210px;
   width: 80px;
   left: 35%;
-}
+} */
