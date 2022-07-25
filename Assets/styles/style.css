@@ -7,6 +7,9 @@ body {
   background-color: #e8f9fd;
   font-family: 'Poppins', sans-serif;
 }
+h4{
+  margin-bottom: 0px;
+}
 
 /* Nav  */
 .navbar .container-fluid {
@@ -32,7 +35,25 @@ body {
 .players{
   margin-top: 1rem;
   display: flex;
+  justify-content: space-between;
+}
+.dice{
+  display: flex;
   justify-content: space-around;
+  align-items: center;
+  /* font-size: larger; */
+}
+#player1{
+  color: red;
+}
+#player2{
+  color: blue;
+}
+#player3{
+  color: green;
+}
+#player4{
+  color: #FFCD38;
 }
 
 /* Board */
