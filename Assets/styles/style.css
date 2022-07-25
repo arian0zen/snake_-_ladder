@@ -119,3 +119,52 @@ body {
   width: 80px;
   left: 35%;
 } */
+
+/* Snakes and ladders */
+.snake1{
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  bottom: 0;
+  right: 50%;
+  position: relative;
+}
+.snake1_end{
+  height: 30px;
+  width: 30px;
+  top: 0;
+  bottom: 50%;
+  left: 27%;
+  position: relative;
+}
+.ladder_start{
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  bottom: 0;
+  right: 40%;
+  /* transform: rotate(25deg); */
+  position: relative;
+}
+.ladder_end{
+  height: 30px;
+  width: 30px;
+  top: 0;
+  bottom: 50%;
+  right: 10%;
+  position: relative;
+}
+.snake2_start{
+  height: 40px;
+  width: 50px;
+  bottom: 9px;
+  left: 17%;
+  position: relative;
+}
+.snake2_end{
+  height: 40px;
+  width: 40px;
+  bottom: 47%;
+  left: 40%;
+  position: relative;
+}
