@@ -143,6 +143,7 @@ body {
   top: 50%;
   bottom: 0;
   right: 40%;
+  right: 10%;
   /* transform: rotate(25deg); */
   position: relative;
 }
