@@ -47,13 +47,15 @@ h4{
   color: red;
 }
 #player2{
-  color: blue;
+  color: green;
+ 
 }
 #player3{
-  color: green;
+  color: #FFCD38;
+  
 }
 #player4{
-  color: #FFCD38;
+  color: blue;
 }
 
 /* Board */
