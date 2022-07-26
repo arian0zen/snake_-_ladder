@@ -192,3 +192,97 @@ h4{
   left: 40%;
   position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries for snakes and ladders */
+
+@media (max-width: 540px) {
+    /*snakes*/
+    .snake1{
+      height: 26px;
+      width: 26px;
+      top: -2px;
+      bottom: 0;
+      right: 6%;
+      position: relative;
+    }
+    
+    .snake1_end
+    {
+      height: 26px;
+      width: 26px;
+      top: -20px;
+      bottom: 4%;
+      left: 51%;
+      position: relative;
+    }
+    .snake2_start {
+      height: 34px;
+      width: 36px;
+      bottom: 9px;
+      left: 3%;
+      position: relative;
+    }
+    .snake2_end {
+      height: 38px;
+      width: 38px;
+      bottom: 42%;
+      left: -2%;
+      position: relative;
+    }
+
+
+
+
+
+
+  }
+
+
+  @media (max-width: 720px) and (min-width: 540px) {
+    .snake1{
+      height: 30px;
+      width: 30px;
+      top: -9px;
+      bottom: 0;
+      right: 8%;
+      position: relative;
+    }
+    
+    .snake1_end
+    {
+      height: 30px;
+      width: 30px;
+      top: -29px;
+      bottom: 50%;
+      left: 59%;
+      position: relative;
+    }
+    .snake2_start {
+      height: 47px;
+      width: 51px;
+      bottom: 24px;
+      left: 1%;
+      position: relative;
+    }
+    .snake2_end {
+      height: 44px;
+      width: 48px;
+      bottom: 54%;
+      left: -2%;
+      position: relative;
+    }
+
+  }
