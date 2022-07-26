@@ -221,7 +221,20 @@ h4{
   left: 40%;
   position: relative;
 }
-
+.snake3_start{
+  height: 30px;
+  width: 40px;
+  left: 30%;
+  position: relative;
+}
+.snake3_end{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  transform: rotate(-90deg);
+  top: 40%;
+  right: 45%;
+}
 
 
 
