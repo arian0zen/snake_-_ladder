@@ -142,7 +142,19 @@ h4{
   width: 80px;
   left: 35%;
 } */
-
+/* Pawns */
+.pawn#pawn1{
+  color: #FF0063;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pawn#pawn2{
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Snakes and ladders */
 .snake1{
   height: 30px;
@@ -178,6 +190,23 @@ h4{
   right: 10%;
   position: relative;
 }
+.ladder2_start{
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  bottom: 0;
+  right: 45%;
+  position: relative;
+  transform: rotate(45deg);
+}
+.ladder2_end{
+  height: 30px;
+  width: 30px;
+  top: 0;
+  bottom: 50%;
+  position: relative;
+  transform: rotate(45deg);
+}
 .snake2_start{
   height: 40px;
   width: 50px;
@@ -191,4 +220,18 @@ h4{
   bottom: 47%;
   left: 40%;
   position: relative;
+}
+.snake3_start{
+  height: 30px;
+  width: 40px;
+  left: 30%;
+  position: relative;
+}
+.snake3_end{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  transform: rotate(-90deg);
+  top: 40%;
+  right: 45%;
 }
