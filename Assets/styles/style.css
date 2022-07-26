@@ -284,6 +284,21 @@ h4{
       left: -2%;
       position: relative;
     }
+    .snake3_start {
+      height: 23px;
+      width: 31px;
+      left: 15%;
+      top: 4%;
+      position: relative;
+    }
+    .snake3_end {
+      height: 30px;
+      width: 30px;
+      position: relative;
+      transform: rotate(-90deg);
+      top: -19%;
+      right: 0%;
+    }
 
 
 
@@ -325,6 +340,21 @@ h4{
       bottom: 54%;
       left: -2%;
       position: relative;
+    }
+    .snake3_start {
+      height: 30px;
+      width: 40px;
+      left: 18%;
+      top: -15%;
+      position: relative;
+    }
+    .snake3_end {
+      height: 30px;
+      width: 30px;
+      position: relative;
+      transform: rotate(-90deg);
+      top: -27%;
+      right: -1%;
     }
 
   }
