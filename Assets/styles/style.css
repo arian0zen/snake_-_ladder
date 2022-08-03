@@ -155,23 +155,8 @@ h4{
   justify-content: center;
   align-items: center;
 }
-/* Snakes and ladders */
-.snake1{
-  height: 30px;
-  width: 30px;
-  top: 50%;
-  bottom: 0;
-  right: 50%;
-  position: relative;
-}
-.snake1_end{
-  height: 30px;
-  width: 30px;
-  top: 0;
-  bottom: 50%;
-  left: 27%;
-  position: relative;
-}
+/* ladders */
+
 .ladder_start{
   height: 30px;
   width: 30px;
@@ -207,6 +192,23 @@ h4{
   position: relative;
   transform: rotate(45deg);
 }
+/* snakes */
+.snake1{
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  bottom: 0;
+  right: 50%;
+  position: relative;
+}
+.snake1_end{
+  height: 30px;
+  width: 30px;
+  top: 0;
+  bottom: 50%;
+  left: 27%;
+  position: relative;
+}
 .snake2_start{
   height: 40px;
   width: 50px;
@@ -234,6 +236,21 @@ h4{
   transform: rotate(-90deg);
   top: 40%;
   right: 45%;
+}
+.snake4_start{
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  right: 53%;
+  position: relative;
+}
+.snake4_end{
+  height: 30px;
+  width: 30px;
+  top: 0;
+  bottom: 50%;
+  left: 19%;
+  position: relative;
 }
 
 
@@ -271,15 +288,15 @@ h4{
       position: relative;
     }
     .snake2_start {
-      height: 34px;
-      width: 36px;
-      bottom: 9px;
+      height: 31px;
+      width: 33px;
+      bottom: 7px;
       left: 3%;
       position: relative;
     }
     .snake2_end {
-      height: 38px;
-      width: 38px;
+      height: 30px;
+      width: 30px;
       bottom: 42%;
       left: -2%;
       position: relative;
@@ -299,7 +316,55 @@ h4{
       top: -19%;
       right: 0%;
     }
-
+    .snake4_start{
+      height: 26px;
+      width: 26px;
+      top: -2px;
+      bottom: 0;
+      right: 6%;
+      position: relative;
+    }
+    .snake4_end{
+      height: 26px;
+      width: 26px;
+      top: -20px;
+      bottom: 4%;
+      left: 51%;
+      position: relative;
+    }
+    /* ====Ladders==== */
+    .ladder_start{
+      height: 23px;
+      width: 25px;
+      top: 5%;
+      left: 35%;
+      /* transform: rotate(25deg); */
+      position: relative;
+    }
+    .ladder_end{
+      height: 23px;
+      width: 25px;
+      top: -43%;
+      left: 35%;
+      position: relative;
+    }
+    .ladder2_start{
+      height: 23px;
+      width: 25px;
+      top: 6%;
+      bottom: 0;
+      right: -2%;
+      position: relative;
+      transform: rotate(45deg);
+    }
+    .ladder2_end{
+      height: 23px;
+      width: 25px;
+      top: -43%;
+      left: 32%;
+      position: relative;
+      transform: rotate(45deg);
+    }
 
 
 
@@ -355,6 +420,58 @@ h4{
       transform: rotate(-90deg);
       top: -27%;
       right: -1%;
+    }
+    .snake4_start{
+      height: 30px;
+      width: 30px;
+      top: -9px;
+      bottom: 0;
+      right: 8%;
+      position: relative;
+    }
+    .snake4_end{
+      height: 30px;
+      width: 30px;
+      top: -29px;
+      bottom: 50%;
+      left: 59%;
+      position: relative;
+    }
+    /* ====Ladders==== */
+    .ladder_start{
+      height: 23px;
+      width: 25px;
+      top: 50%;
+      bottom: 0;
+      right: 40%;
+      right: 10%;
+      /* transform: rotate(25deg); */
+      position: relative;
+    }
+    .ladder_end{
+      height: 23px;
+      width: 25px;
+      top: 0;
+      right: 10%;
+      left: 20%;
+      position: relative;
+    }
+    .ladder2_start{
+      height: 23px;
+      width: 25px;
+      top: -7%;
+      bottom: 0;
+      right: 0%;
+      position: relative;
+      transform: rotate(45deg);
+    }
+    .ladder2_end{
+      height: 23px;
+      width: 25px;
+      top: -59%;
+      left: 52%;
+      position: relative;
+      transform: rotate(45deg);
     }
 
   }
