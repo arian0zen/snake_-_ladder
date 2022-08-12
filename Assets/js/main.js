@@ -62,106 +62,202 @@ function rollDice() {
 }
 function player1Move(){
         if(rollDice()==1){
-            p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p1_roll.classList.add("bxs-dice-1");
+            p1_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p1_roll.classList.add("bxs-dice-1");
+                p1_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==2){
-            p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p1_roll.classList.add("bxs-dice-2");
+            p1_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p1_roll.classList.add("bxs-dice-2");
+                p1_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==3){
-            p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p1_roll.classList.add("bxs-dice-3");
+            p1_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p1_roll.classList.add("bxs-dice-3");
+                p1_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==4){
-            p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p1_roll.classList.add("bxs-dice-4");
+            p1_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p1_roll.classList.add("bxs-dice-4");
+                p1_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==5){
-            p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p1_roll.classList.add("bxs-dice-5");
+            p1_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p1_roll.classList.add("bxs-dice-5");
+                p1_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==6){
-            p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p1_roll.classList.add("bxs-dice-6");
+            p1_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p1_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p1_roll.classList.add("bxs-dice-6");
+                p1_roll.classList.remove("bx-tada");
+            }, 1000);
         }
 }
 function player2Move(){
         if(rollDice()==1){
-            p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p2_roll.classList.add("bxs-dice-1");
+            p2_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p2_roll.classList.add("bxs-dice-1");
+                p2_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==2){
-            p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p2_roll.classList.add("bxs-dice-2");
+            p2_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p2_roll.classList.add("bxs-dice-2");
+                p2_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==3){
-            p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p2_roll.classList.add("bxs-dice-3");
+            p2_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p2_roll.classList.add("bxs-dice-3");
+                p2_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==4){
-            p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p2_roll.classList.add("bxs-dice-4");
+            p2_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p2_roll.classList.add("bxs-dice-4");
+                p2_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==5){
-            p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p2_roll.classList.add("bxs-dice-5");
+            p2_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p2_roll.classList.add("bxs-dice-5");
+                p2_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==6){
-            p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p2_roll.classList.add("bxs-dice-6");
+            p2_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p2_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p2_roll.classList.add("bxs-dice-6");
+                p2_roll.classList.remove("bx-tada");
+            }, 1000);
         }
 }
 function player3Move(){
 
         if(rollDice()==1){
-            p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p3_roll.classList.add("bxs-dice-1");
+            p3_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p3_roll.classList.add("bxs-dice-1");
+                p3_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==2){
-            p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p3_roll.classList.add("bxs-dice-2");
+            p3_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p3_roll.classList.add("bxs-dice-2");
+                p3_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==3){
-            p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p3_roll.classList.add("bxs-dice-3");
+            p3_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p3_roll.classList.add("bxs-dice-3");
+                p3_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==4){
-            p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p3_roll.classList.add("bxs-dice-4");
+            p3_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p3_roll.classList.add("bxs-dice-4");
+                p3_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==5){
-            p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p3_roll.classList.add("bxs-dice-5");
+            p3_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p3_roll.classList.add("bxs-dice-5");
+                p3_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==6){
-            p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p3_roll.classList.add("bxs-dice-6");
+            p3_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p3_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p3_roll.classList.add("bxs-dice-6");
+                p3_roll.classList.remove("bx-tada");
+            }, 1000);
         }
 }
 function player4Move(){
         if(rollDice()==1){
-            p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p4_roll.classList.add("bxs-dice-1");
+            p4_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p4_roll.classList.add("bxs-dice-1");
+                p4_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==2){
-            p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p4_roll.classList.add("bxs-dice-2");
+            p4_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p4_roll.classList.add("bxs-dice-2");
+                p4_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==3){
-            p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p4_roll.classList.add("bxs-dice-3");
+            p4_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p4_roll.classList.add("bxs-dice-3");
+                p4_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==4){
-            p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p4_roll.classList.add("bxs-dice-4");
+            p4_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p4_roll.classList.add("bxs-dice-4");
+                p4_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==5){
-            p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p4_roll.classList.add("bxs-dice-5");
+            p4_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p4_roll.classList.add("bxs-dice-5");
+                p4_roll.classList.remove("bx-tada");
+            }, 1000);
         }
         else if(rollDice()==6){
-            p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
-            p4_roll.classList.add("bxs-dice-6");
+            p4_roll.classList.add("bx-tada");
+            setTimeout(() => {
+                p4_roll.classList.remove("bxs-dice-1", "bxs-dice-2", "bxs-dice-3", "bxs-dice-4", "bxs-dice-5", "bxs-dice-6");
+                p4_roll.classList.add("bxs-dice-6");
+                p4_roll.classList.remove("bx-tada");
+            }, 1000);
         }
 }    
