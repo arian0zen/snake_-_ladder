@@ -145,17 +145,25 @@ h4{
   left: 35%;
 } */
 /* Pawns */
-.pawn#pawn1{
-  color: #FF0063;
+.pawn{
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 2%;
+}
+.pawn#pawn1{
+  color: #FF0063;
 }
 .pawn#pawn2{
   color: green;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+}
+.pawn#pawn3{
+  color: yellow;
+}
+.pawn#pawn4{
+  color: blue;
 }
 /* ladders */
 
